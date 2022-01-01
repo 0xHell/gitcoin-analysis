@@ -16,3 +16,10 @@ the prediction for match amount had the biggest climb and crowd contributions wa
 
 ![Figure_2](https://user-images.githubusercontent.com/96579475/147843920-dbd0e9f7-84d5-4b96-818b-2eee36b9c735.png)
 `analyzer.plotPrediction(target="crowdfund_amount_contributions_usd")`
+
+# Prediction for GR13 using Auto Regression:
+- total: [8794972.23459812]
+- match_amount: [7717096.75481212]
+- num_contributions: [524200.79098972]
+- num_unique_contributors: [436252.65693899]
+- crowdfund_amount_contributions_usd: [2825236.5715555]
