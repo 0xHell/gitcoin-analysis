@@ -8,5 +8,5 @@ sorry my english is not very good but ill do my best.
 # Grants Overview
 GR12 with 6M funding was the biggest round ever, PN.
 by using Auto Regression next grants total amount predicted to be 8.8M
-- analyzer.plotPrediction(target="total")
+`analyzer.plotPrediction(target="total")`
 ![Figure_1](https://user-images.githubusercontent.com/96579475/147843793-8b68b4e8-4d16-4a18-bca5-71fa839ee8e1.png)
