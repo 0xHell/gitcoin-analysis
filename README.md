@@ -53,9 +53,29 @@ GR12 ratio shows the total funding had a high amount of unique contributers and 
 ![Figure_5](https://user-images.githubusercontent.com/96579475/147844352-b93c6ba6-d93a-44d5-a71e-b41fdd91b5b8.png)
 `analyzer.plotRatio(col1="num_contributions", col2="num_unique_contributors", subGroup="region_s")`
 
+# Funded by region
+with almost 1.9M total funding increase in `NA` and 1M increase for `EU` using Auto Regression shows `EU` is about to pop 🚀
 
+![Figure_7](https://user-images.githubusercontent.com/96579475/147844523-fefb4c10-e7fe-4c13-96c2-e083717e00b1.png)
+`analyzer.plotByRegion(target="total", subGroup="region_s")`
+
+# Funded(Percentage) By Category
+![Figure_8](https://user-images.githubusercontent.com/96579475/147844634-75116166-919c-4130-b12a-abaf9a7ae8b9.png)
+`analyzer.plotByTotal(target="total", subGroup="category", operation="div")`
+
+# Funded By Category
+![Figure_9](https://user-images.githubusercontent.com/96579475/147844652-0d6848fa-06ef-41c7-9006-6f0f913f89ef.png)
+`analyzer.plotByRegion(target="total", subGroup="category")`
 
 # TODO
 - atleast 10 more prediction models 
 - fancy charts
 - Api/CLI
+
+# Prediction models being tested:
+- CVR + LSTM w Tensorflow
+- Autoregressive Moving Average
+- Seasonal Autoregressive Integrated Moving-Average with Exogenous Regressors
+- Vector Autoregression
+- Vector Autoregression Moving-Average with Exogenous Regressors
+- Holt Winter’s Exponential Smoothing
